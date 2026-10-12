@@ -53,6 +53,19 @@ here we have 2 options
 since i commited, rm safely , it was able to remove my Docs safely as well. 
 
 
+Now that git only allows u to remove the thing if the version and contorl is done properly , how to get the previous thing back ? 
+
+
+git commit simply doesnt do the current changes till u do git add.
+
+i can do git restore docs , but this is not just the same as like , what if i delete 100s of files, how to get all of it back . 
+
+git restore , 
+2nd to go to any commit history, we can go do 
+git logm we get all thei histoyr 
+
+
+i can also do git checkout the commit thing 
 
 
 After this thing , we do SSH VS HTTP 
