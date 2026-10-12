@@ -50,6 +50,10 @@ here we have 2 options
 --cached - ie keep the file on the mac 
 -f force remove the file 
 
+since i commited, rm safely , it was able to remove my Docs safely as well. 
+
+
+
 
 After this thing , we do SSH VS HTTP 
 
