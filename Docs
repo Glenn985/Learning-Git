@@ -1,1 +1,79 @@
-.git is the hidden
+
+
+ Git Repo is simply a normal directory (folder) that has been given a tracking database
+ Git is a downloadable program that runs directly on your computer's operating system.
+
+When u do git init, it will convert the normal file into a git repo 
+An Ordinary Folder (The "Dumb" Folder)
+• No Memory: If you rewrite a file, save it, and delete the old code, the old code is gone forever.
+• No History: You can't see what the project looked like yesterday, last week, or two months ago.
+• Messy Backups: If you want to save a working version, you have to manually duplicate the folder and name it something like my-project-v2, my-project-final, or my-project-FIXED.
+
+
+
+after u make the file ok git 
+
+git ls-files - this will show what the git itslef is tracking 
+
+git add . Docs. - this added everyhting 
+
+
+
+Docs    Sai.py
+glennmain@glenns-MacBook-Air Learning_Git % git rm Docs
+error: the following file has changes staged in the index:
+    Docs
+(use --cached to keep the file, or -f to force removal)
+glennmain@glenns-MacBook-Air Learning_Git % 
+
+
+git rm --cached Docs
+rm 'Docs'
+glennmain@glenns-MacBook-Air Learning_Git % git ls-files
+Sai.py
+glennmain@glenns-MacBook-Air Learning_Git % 
+
+
+It prevented me from doing git rm Docs, 
+
+
+
+
+it prevented me from doing , git rm Docs, becasue i had not commited anything , 
+
+but after commiting the docs, git is able to rm it, because its just stopping the trackign 
+
+
+Again , after makign new changes, no commit it wont let me remove Docs
+
+here we have 2 options 
+--cached - ie keep the file on the mac 
+-f force remove the file 
+
+
+After this thing , we do SSH VS HTTP 
+
+
+
+
+
+
+.git is the hidden folder gits entire memory of proejct 
+
+After i made a sai.py i checked , git status it showed 
+
+HEYYY
+glennmain@glenns-MacBook-Air Learning_Git % git status
+On branch main
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Docs
+        Sai.py
+nothing added to commit but untracked files present (use "git add" to track)
+glennmain@glenns-MacBook-Air Learning_Git % 
+
+
+An untracked file on git means , it knows the project exists but its not monitoring, 
+when you do git add <filename> it will start monitoring, By monitoring it simply tracks, 
+its not saving to history yet, FOR SAVING you should do git commit , this will save in the , its using OUR COMPUTER RAM FOR THIS purpose , 
