@@ -1,6 +1,6 @@
 
 TO visualise enitrely , it will be good to think of git as in temrs of pointers, which will point ot memory , a file that has a change will have a pointer to that particular change , thats it 
-        
+
  
  
  
@@ -157,3 +157,7 @@ glennmain@glenns-MacBook-Air Learning_Git %
 An untracked file on git means , it knows the project exists but its not monitoring, 
 when you do git add <filename> it will start monitoring, By monitoring it simply tracks, 
 its not saving to history yet, FOR SAVING you should do git commit , this will save in the , its using OUR COMPUTER RAM FOR THIS purpose , 
+
+
+
+CAN I PANEER UR JAVA
