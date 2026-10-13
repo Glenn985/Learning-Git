@@ -1,5 +1,9 @@
 
-
+TO visualise enitrely , it will be good to think of git as in temrs of pointers, which will point ot memory , a file that has a change will have a pointer to that particular change , thats it 
+        
+ 
+ 
+ 
  Git Repo is simply a normal directory (folder) that has been given a tracking database
  Git is a downloadable program that runs directly on your computer's operating system.
 
@@ -16,6 +20,11 @@ after u make the file ok git
 git ls-files - this will show what the git itslef is tracking 
 
 git add . Docs. - this added everyhting 
+
+
+
+
+
 
 
 
@@ -55,7 +64,6 @@ since i commited, rm safely , it was able to remove my Docs safely as well.
 
 Now that git only allows u to remove the thing if the version and contorl is done properly , how to get the previous thing back ? 
 
-
 git commit simply doesnt do the current changes till u do git add.
 
 i can do git restore docs , but this is not just the same as like , what if i delete 100s of files, how to get all of it back . 
@@ -68,14 +76,69 @@ git logm we get all thei histoyr
 i can also do git checkout the commit thing 
 
 
+git status will tell u , if there is any modification in the tracked filesm 
+
+cat test.txt - just to display all contents of the file, 
+git gets the restore form teh staging area, WTV after the add
+
+git restore jsut gets the last staged version , 
+
+git status will show u staging area, 
+
+git reset, is for going to one paritcular commit area, 
+
+
+
+Every git reset moves HEAD (the branch pointer), but they differ in what happens to your files and staging area:
+
+therer are 3 things, 
+git soft commit - • Moves HEAD back to the target commit, but touches neither the staging area nor the working directory.
+
+normal git reset <commit> changes the staging area as well , SOFT COMMIT DOES NOT CHANGE STAGING AREA , 
+
+git reset --hard commit will fully , change teh staging area remove it and go to that parituclar commit, THIS IS A NUCLEAR OPTION , again oNLY UNCOMITED work , but git add alone doesnt suffice 
+
+
+git restore <file> is a surgical strike. It targets and wipes out the uncommitted changes of just one single file (or a few files you specify), leaving the rest of your repository completely alone.
+
+git reset, is not just file but the entire thign itslef 
+
+
+
+Unlike git reset, which alters commit history, git revert works by creating a new commit that inversely applies the changes introduced by the specified commit(s)
+
+
+
+
 After this thing , we do SSH VS HTTP 
 
+
+
+when we do git checkout, we its like goign on a time machine, and int hat commit u only see the previous commits to get all the possible commits we do 
+git log --all --oneline
+
+
+
+
+Branching and merging: git switch -c, git merge, and merge conflicts.
+
+when u do , git different branch , and do git checkout - brach its the same as git checkout nad hten hte last commit u want to go twards. 
+the head pointer will point to that
+
+
+when u do checkout the head itslef will change
+
+git commit -a -m 'Make a change' , this is same as git add . + git commit -m "make a change"
+
+
+WHen u make a seperate branch on git , its for the  purpose of , we create a new branch , do all the changes , make sure it works , then we push to the main only if its working , 
 
 
 
 
 
 .git is the hidden folder gits entire memory of proejct 
+f
 
 After i made a sai.py i checked , git status it showed 
 
