@@ -160,4 +160,18 @@ its not saving to history yet, FOR SAVING you should do git commit , this will s
 
 
 
-CAN I PANEER UR JAVA
+
+
+Switched to branch 'main'
+glennmain@glenns-MacBook-Air Learning_Git % git merge Experiment
+Already up to date.
+glennmain@glenns-MacBook-Air Learning_Git % 
+
+
+
+
+
+
+• git stash: Temporarily hide your uncommitted changes if you need to quickly switch branches.
+• git stash pop: Bring your temporarily hidden changes back out.
+• git reset --soft HEAD~1: Undo your last local commit while keeping your code changes intact.
